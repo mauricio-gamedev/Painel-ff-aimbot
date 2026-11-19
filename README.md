@@ -17,7 +17,7 @@ A dark black/crimson Android companion dashboard for Free Fire players, built wi
 - Kotlin 2.3.21
 - Android Gradle Plugin 8.13.2
 - Gradle 8.13
-- Jetpack Compose BOM 2026.09.00
+- Jetpack Compose BOM 2026.07.00 (kept below the API 37 / AGP 9 Compose 1.12 line)
 - Java 17
 
 ## Build and validation
