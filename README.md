@@ -1,31 +1,24 @@
 # FF Companion
 
-A legitimate Android companion dashboard for Free Fire players, built with Kotlin and Jetpack Compose.
+Painel auxiliar Android para Free Fire, desenvolvido em Kotlin e Jetpack Compose.
 
-## Project scope
+## Recursos
+- Perfis de sensibilidade com controles ajustáveis.
+- Presets Equilibrado, Precisão e Rápido.
+- Salvamento local usando SharedPreferences.
+- Atalho para abrir Free Fire / Free Fire MAX quando instalado.
+- Atalho para configurações de tela do Android.
+- Interface escura com destaque vermelho.
 
-This application provides local sensitivity profiles, game launch shortcuts, device settings shortcuts, and manual performance guidance. It does **not** inject into Free Fire, modify game memory or files, automate aiming, bypass anti-cheat, evade bans, or claim ban immunity.
+Os valores de sensibilidade são referências para ajuste manual. O aplicativo não altera configurações internas do jogo.
 
-## Target
-
-- Android 16 (API 36)
-- Kotlin
-- Jetpack Compose
-- Minimum Android version: 8.0 (API 26)
+## Requisitos
+- Android Studio com JDK 17.
+- Android SDK Platform 36.
+- Android 8.0 (API 26) ou superior.
 
 ## Build
+Abra o projeto no Android Studio e execute a configuração `:app`. O projeto usa Android Gradle Plugin 8.10.1 e Kotlin 2.1.21.
 
-Open the repository in Android Studio, install Android SDK Platform 36, sync Gradle, then run the `:app` configuration.
-
-Command-line build (after a Gradle wrapper is added):
-```bash
-./gradlew testDebugUnitTest assembleDebug
-```
-
-## Privacy
-
-Sensitivity profiles are stored locally using Android SharedPreferences. The app requests no network, overlay, accessibility, storage, or root permissions.
-
-## Status
-
-Initial repository bootstrap. See [docs/SESSION_CHECKPOINT.md](docs/SESSION_CHECKPOINT.md) for the implementation checkpoint once the scaffold lands.
+## Privacidade
+Os perfis são armazenados localmente. O aplicativo não solicita permissões de rede, armazenamento, overlay, acessibilidade ou root.
