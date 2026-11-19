@@ -13,7 +13,7 @@ Build FF Companion as a legitimate Android companion. Do not implement injection
 - Kotlin 2.3.21
 - Android Gradle Plugin 8.13.2
 - Gradle 8.13
-- Jetpack Compose BOM 2026.09.00
+- Jetpack Compose BOM 2026.07.00 (pinned to remain compatible with compileSdk 36; BOM 2026.09.00 resolved Compose 1.12.1 requiring API 37 / AGP 9.1)
 - Android compileSdk/targetSdk 36
 - minSdk 26
 - Java 17
